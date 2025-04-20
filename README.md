@@ -1,37 +1,39 @@
-# Análisis de Ventas por Tienda
+# Alura Store - Análisis de Datos
 
-Este proyecto forma parte de una actividad académica del programa Oracle Next Education, para el trayecto de Ciencia de Datos, en donde se analiza un conjunto de datos de ventas simuladas en diferentes tiendas. El objetivo principal es identificar en cuál tienda debería vender el Sr. Juan, basándose en múltiples factores de negocio.
+## Propósito del proyecto
 
-## Objetivo del proyecto
+Este proyecto fue realizado como parte del desafío final del curso de Ciencia de Datos de Alura Latam. El objetivo principal es analizar los datos de ventas de cuatro tiendas diferentes para ayudar al Sr. Juan a decidir cuál de ellas debería vender, basándonos en factores como:
 
-Analizar los datos de ventas para responder a la pregunta:  
-**¿En cuál de las cuatro tiendas disponibles debería vender sus productos el Sr. Juan?**
+- Ingresos totales
+- Categorías más y menos vendidas
+- Calificaciones promedio de los clientes
+- Productos más vendidos y menos vendidos
+- Costos de envío promedio
 
-Para responder esto, se consideran los siguientes factores:
+## Estructura del proyecto
 
-- Ingresos totales por tienda  
-- Productos más y menos vendidos  
-- Categorías más populares  
-- Calificaciones promedio por tienda  
-- Costos de envío promedio  
+El proyecto está compuesto por los siguientes archivos:
 
-## Herramientas utilizadas
+- `alura_store.ipynb`: Notebook principal donde se desarrolla todo el análisis, visualizaciones y conclusiones.
+- `README.md`: Este archivo con la descripción general del proyecto.
+- `tienda1.csv`, `tienda2.csv`, `tienda3.csv`, `tienda4.csv`: Archivos con los datos originales de cada tienda.
 
-- Python 3  
-- Google Colab  
-- Pandas  
-- Matplotlib  
+## Ejemplos de gráficos e insights
 
-##Estructura del proyecto
+Durante el análisis se generaron diferentes tipos de gráficos con `matplotlib` para visualizar los datos. Algunos ejemplos:
 
-- `tienda.csv`, `tienda2.csv`, `tienda3.csv`, `tienda4.csv`: Archivos fuente con los datos de ventas.  
-- `informe_final.ipynb`: Notebook principal donde se realiza el análisis.  
-- `README.md`: Este archivo.
+- **Gráfico de barras**: Comparación de ingresos por tienda.
+- **Gráfico de torta (pie chart)**: Distribución de ventas por categoría.
+- **Gráfico de barras horizontales**: Calificación promedio por tienda.
 
-## Dependencias
+### Insight clave:
 
-Este proyecto requiere las siguientes bibliotecas de Python:
+> La Tienda 4 fue identificada como la menos rentable, con ingresos más bajos, calificaciones promedio menores y productos menos populares. Por esta razón, se recomienda vender esa tienda.
 
-```bash
-pandas
-matplotlib
+## Cómo ejecutar el notebook
+
+1. Cloná o descargá este repositorio.
+2. Asegurate de tener instalado Python 3 y Jupyter Notebook.
+3. Instalá las dependencias si no las tenés:
+   ```bash
+   pip install pandas matplotlib
