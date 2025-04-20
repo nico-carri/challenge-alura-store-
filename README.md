@@ -1,6 +1,6 @@
 # Análisis de Ventas por Tienda
 
-Este proyecto forma parte de una actividad académica para el trayecto de Ciencia de Datos, en donde se analiza un conjunto de datos de ventas simuladas en diferentes tiendas. El objetivo principal es identificar en cuál tienda debería vender el Sr. Juan, basándose en múltiples factores de negocio.
+Este proyecto forma parte de una actividad académica del programa Oracle Next Education, para el trayecto de Ciencia de Datos, en donde se analiza un conjunto de datos de ventas simuladas en diferentes tiendas. El objetivo principal es identificar en cuál tienda debería vender el Sr. Juan, basándose en múltiples factores de negocio.
 
 ## Objetivo del proyecto
 
