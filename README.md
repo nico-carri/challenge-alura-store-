@@ -2,7 +2,7 @@
 
 ## Propósito del proyecto
 
-Este proyecto fue realizado como parte del desafío final del curso de Ciencia de Datos de Alura Latam. El objetivo principal es analizar los datos de ventas de cuatro tiendas diferentes para ayudar al Sr. Juan a decidir cuál de ellas debería vender, basándonos en factores como:
+Este proyecto fue realizado como parte del desafío del curso de Ciencia de Datos de Alura Latam. El objetivo principal es analizar los datos de ventas de cuatro tiendas diferentes para ayudar al Sr. Juan a decidir cuál de ellas debería vender, basándonos en factores como:
 
 - Ingresos totales
 - Categorías más y menos vendidas
